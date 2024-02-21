@@ -1,2 +1,0 @@
-config SHIELD_BINGUS
-    def_bool $(shields_list_contains,Bingus55)

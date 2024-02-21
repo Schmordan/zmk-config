@@ -1,6 +1,0 @@
-if SHIELD_BINGUS
-
-config ZMK_KEYBOARD_NAME
-    default "Bingus55"
-
-endif
