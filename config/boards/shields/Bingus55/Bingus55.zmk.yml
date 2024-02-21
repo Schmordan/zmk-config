@@ -3,8 +3,8 @@ id: Bingus55
 name: Bingus55
 type: shield
 url: https://github.com/Schmordan/zmk-config
-requires:
-  - nice_nano_v2
+requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
   - display
