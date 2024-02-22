@@ -22,7 +22,7 @@
 		        &bt BT_CLR &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp ENTER 
 	            &kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp DOT &kp COMMA &kp APOS 
 		        &kp LCTRL &kp LALT &kp LGUI &kp SPACE &kp SPACE &kp RGUI &mo 1 &kp DOWN &kp UP
-		        &kp MINUS &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SLASH
+		        &kp MINUS &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SLASH
                 >;
             };
     };
