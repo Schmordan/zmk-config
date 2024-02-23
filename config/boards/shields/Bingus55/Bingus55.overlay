@@ -10,9 +10,10 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
         diode-direction = "col2row";
-        vbatt:vbatt {compatible = "zmk, battery-voltage-divider";label = "BATTERY";
+        vbatt:vbatt {compatible = "zmk, battery-voltage-divider";
+        label = "BATTERY";
         io-channels = <&adc 2>;
-        output-ohms =<2000000>;
+        output-ohms = <2000000>;
         full-ohms = <(2000000 +806000)>;pintopin compatible promicro
 
         col-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>,
